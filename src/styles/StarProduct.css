@@ -1,0 +1,19 @@
+.starProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmax;
+}
+
+.starProduct>div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    width: 46%;
+}
+.starProduct img{
+    margin: 5px;
+    transition: all 0.5s;
+}
+.starProduct img:hover{
+    box-shadow: 6px 6px 15px rgb(185, 183, 183);
+}

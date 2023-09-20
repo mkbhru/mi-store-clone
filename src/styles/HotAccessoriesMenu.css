@@ -1,0 +1,21 @@
+.hot-accessaries-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hot-accessaries-link {
+    text-decoration: none;
+    color: rgb(119, 123, 119);
+    margin: 1vmax;
+    padding: 0.5vmax 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hot-accessaries-menu  :hover {
+    border-color: solid black;
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 1px orangered;
+}

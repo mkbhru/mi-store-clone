@@ -1,0 +1,102 @@
+.pre-footer {
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pre-footer>div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: grey;
+    cursor: pointer;
+}
+
+.pre-footer>div:hover svg{
+    fill: black;
+}
+.pre-footer>div:hover p{
+    color: black;
+}
+.pre-footer span{
+    text-align: left;
+}
+.pre-footer svg{
+    transform: scale(2) translateY(-0.2vmax);
+    fill: gray;
+    margin: 2vmax;
+}
+/* --------------------pre-footer-2-------------------- */
+
+.pre-footer-2{
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.pre-footer-2>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pre-footer-2>div>p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0%;
+}
+
+.pre-footer-2>div>span{
+    color: gray;
+    width: 18vmax;
+    font-size: 1vmax;
+}
+
+.pre-footer-2>div>div>input{
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: white;
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+.pre-footer-2>div>div>button{
+    border: none;
+    padding: 0.5vmax;
+    background-color: white;
+    outline: none;
+}
+
+.pre-footer-2>div>div{
+    border: 1px solid gray;
+}
+.pre-footer-2>div:nth-child(2) span{
+    width: 22vmax;
+}
+.pre-footer-2>div:nth-child(3) {
+    justify-content: center;
+    align-items: flex-end;
+}
+.pre-footer-2>div:nth-child(3)>p {
+    width: 14vmax;
+}
+.pre-footer-2>div:nth-child(3)>span {
+    width: 14vmax;
+}
+.pre-footer-2>div:nth-child(4) {
+    flex-direction: row;
+}
+.pre-footer-2>div:nth-child(4)>svg{
+    cursor: pointer;
+    margin: 1vmax;
+    fill: rgb(118, 118, 118);
+}
+.pre-footer-2>div:nth-child(4)>svg:hover{
+    fill: black;
+}

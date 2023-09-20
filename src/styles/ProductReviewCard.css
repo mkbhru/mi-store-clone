@@ -1,0 +1,26 @@
+.product-review-card{
+    margin: 0.5vmax;
+    background-color: white;
+    padding-bottom: 2vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.product-review-card:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px gray;
+}
+.product-review-card h5{
+    color: gray;
+    margin: 2vmax 0vmax 0.5vmax 2vmax;
+
+}
+.product-review-card span{
+    color: gray;
+    margin: 0 2vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vmax;
+}
+.product-review-card b{
+    color: orangered;
+}
